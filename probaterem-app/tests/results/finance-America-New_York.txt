@@ -1,0 +1,36 @@
+✔ 01 Pontos havi befizetés (11.361151ms)
+✔ 02 Részleges befizetés (0.187793ms)
+✔ 03 Több hónapra előre fizetés (0.23181ms)
+✔ 04 Későbbi rendezés nem változtatja meg a történeti egyenleget (0.217478ms)
+✔ 05 Túlfizetés továbbvitele és legrégebbi tartozás (0.824614ms)
+✔ 06 Korábbi befizetés módosítása (összeg, dátum, tag) (0.276607ms)
+✔ 07 Érvénytelenítés (0.184248ms)
+✔ 08 Érvénytelenítés visszavonása (0.144999ms)
+✔ 09 Tagsági időszak módosítása és átfedés (7.229291ms)
+✔ 10 Kilépett tag későbbi tartozásrendezése (0.96112ms)
+✔ 11 Új tag belépése (0.17235ms)
+✔ 12 Korábbi tag visszalépése (1.053138ms)
+✔ 13 Részleges túlfizetés-visszafizetés (0.42462ms)
+✔ 14 Teljes túlfizetés-visszafizetés, ugyanazon a napon több tétel (0.204969ms)
+✔ 15 Túl nagy visszafizetés elutasítása (0.16581ms)
+✔ 16 Visszamenőleges változás miatti visszafizetési ütközés (0.270648ms)
+✔ 17 Visszamenőleges díjváltozás (1.390657ms)
+✔ 18 Felfelé kerekítés 61001 / 4 (0.117808ms)
+✔ 19 Nulla aktív tag (0.196787ms)
+✔ 20 Tulajdonosi állapot, történeti dátum, tényleges összeg megőrzése (0.194964ms)
+✔ 21–22 Teljes mentés és visszaolvasás (1.884992ms)
+✔ 23 Sérült, hiányos, inkompatibilis import (0.254884ms)
+✔ 24–25 Közös riportadatok: minden tag, numerikus pénzek, visszafizetés (1.434323ms)
+✔ 28 Napló és 29 verziózott 1.0 migráció adatvesztés nélkül (0.398351ms)
+✔ Hónapléptetés: évváltás, szökőév, időzónától független (0.148574ms)
+✔ Mai határ, jövőbeli import elutasítása (0.302917ms)
+✔ Séma: típushibák, XSS azonosító, duplikáció, hibás kapcsolat és napló (1.535366ms)
+✔ A migráció sem rejthet el sérült metaadat-azonosítókat (0.131579ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 95.190193

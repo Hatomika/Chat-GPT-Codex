@@ -1,0 +1,581 @@
+:root {
+  color-scheme: dark;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Arial,
+    sans-serif;
+  background: #111827;
+  color: #f8fafc;
+  font-size: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 11px;
+  padding: 12px 14px;
+  font-weight: 650;
+  background: #2563eb;
+  color: white;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.secondary {
+  background: #374151;
+}
+.dangerBtn {
+  background: #8b2635;
+}
+.outline {
+  background: transparent;
+  border: 1px solid #556277;
+}
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  padding: 20px 16px 92px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: #9ca3af;
+}
+.top h1 {
+  font-size: 24px;
+  margin: 3px 0;
+}
+.iconbtn {
+  background: #273244;
+  padding: 10px 13px;
+  font-size: 20px;
+}
+.card {
+  background: #1f2937;
+  border: 1px solid #354152;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 12px 0;
+}
+.hero {
+  background: #23364d;
+}
+.hero strong {
+  font-size: 30px;
+  display: block;
+  margin: 5px 0;
+}
+.muted {
+  color: #a8b4c5;
+}
+.small {
+  font-size: 12px;
+}
+.sub {
+  font-size: 13px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.section {
+  margin-top: 22px;
+  margin-bottom: 11px;
+  font-weight: 700;
+}
+.person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  background: #1f2937;
+  border: 1px solid #354152;
+  padding: 14px 16px;
+  margin: 8px 0;
+}
+.person .values {
+  text-align: right;
+  font-size: 14px;
+}
+.positive {
+  color: #86efac;
+}
+.negative {
+  color: #fca5a5;
+}
+.pill {
+  font-size: 12px;
+  padding: 6px 9px;
+  border-radius: 99px;
+  background: #374151;
+  white-space: nowrap;
+}
+.pill.good {
+  background: #14532d;
+  color: #bbf7d0;
+}
+.pill.bad {
+  background: #5b212b;
+  color: #fecaca;
+}
+.monthnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1f2937;
+  padding: 5px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+.monthnav button {
+  background: none;
+  font-size: 25px;
+  padding: 6px 18px;
+}
+.monthnav button:disabled {
+  opacity: 0.25;
+}
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #172233;
+  border-top: 1px solid #344255;
+  display: flex;
+  justify-content: center;
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 4;
+}
+.navinner {
+  width: min(760px, 100%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.nav button {
+  background: none;
+  color: #9ca3af;
+  padding: 12px 2px;
+  font-size: 12px;
+  border-radius: 0;
+}
+.nav button.active {
+  color: #93c5fd;
+}
+.nav .ico {
+  font-size: 22px;
+  display: block;
+  margin-bottom: 3px;
+}
+.primaryWide {
+  width: 100%;
+  margin: 10px 0;
+}
+.stack {
+  display: grid;
+  gap: 12px;
+}
+label {
+  display: block;
+  color: #cbd5e1;
+  margin: 7px 0 5px;
+  font-size: 13px;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px 11px;
+  border: 1px solid #4b5563;
+  border-radius: 10px;
+  background: #111827;
+  color: #fff;
+  min-height: 44px;
+}
+input[type="checkbox"] {
+  width: auto;
+  min-height: 0;
+  accent-color: #2563eb;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #60a5fa;
+  outline-offset: 1px;
+}
+.actions {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+.actions button {
+  flex: 1;
+}
+.detail {
+  border-bottom: 1px solid #374151;
+  padding: 11px 0;
+}
+.detail:last-child {
+  border: 0;
+}
+.record {
+  background: #1f2937;
+  padding: 13px;
+  border-radius: 12px;
+  margin: 8px 0;
+  border: 1px solid #354152;
+}
+.record button {
+  padding: 7px 11px;
+  font-size: 12px;
+}
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  background: #000b;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.modal {
+  background: #1f2937;
+  border: 1px solid #526174;
+  max-width: 520px;
+  width: 100%;
+  border-radius: 17px;
+  padding: 19px;
+  max-height: 90dvh;
+  overflow: auto;
+}
+.modal h2 {
+  margin: 0 0 14px;
+}
+.warning {
+  border-left: 3px solid #fbbf24;
+  background: #44361645;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 5px;
+}
+.info {
+  border-left: 3px solid #60a5fa;
+  background: #172d4c;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 5px;
+}
+.error {
+  color: #fecaca;
+}
+.hr {
+  border: 0;
+  border-top: 1px solid #354152;
+  margin: 16px 0;
+}
+.tablewrap {
+  overflow: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+th,
+td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #3b4553;
+  text-align: left;
+}
+th {
+  color: #cbd5e1;
+}
+td.num,
+th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+#toast {
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 30;
+  background: #14532d;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px 18px;
+  display: none;
+  max-width: 95vw;
+}
+.empty {
+  padding: 30px 16px;
+  text-align: center;
+  color: #a8b4c5;
+  background: #1f2937;
+  border-radius: 12px;
+}
+.reportprint {
+  display: none;
+}
+h2 {
+  font-size: 19px;
+}
+h3 {
+  font-size: 16px;
+}
+.note {
+  font-size: 13px;
+  color: #a8b4c5;
+  line-height: 1.5;
+}
+.checkboxline {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.checkboxline label {
+  margin: 0;
+}
+.spacer {
+  height: 15px;
+}
+@media (max-width: 380px) {
+  .app {
+    padding: 15px 11px 90px;
+  }
+  .person {
+    padding: 12px 10px;
+  }
+  .person .values {
+    font-size: 12px;
+  }
+}
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  #app,
+  #toast,
+  .nav,
+  .modalBackdrop {
+    display: none !important;
+  }
+  .reportprint {
+    display: block !important;
+    font:
+      11pt Arial,
+      sans-serif;
+    color: #111;
+  }
+  .reportprint h1 {
+    font-size: 19pt;
+  }
+  .reportprint table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 9pt;
+  }
+  .reportprint th,
+  .reportprint td {
+    color: black;
+    border: 1px solid #999;
+    padding: 6px;
+  }
+  .reportprint tr {
+    break-inside: avoid;
+  }
+  .reportprint th {
+    background: #eee;
+  }
+  .reportprint .small {
+    color: #555;
+  }
+}
+/* 1.1: az eredeti sötét megjelenés megtartása, érintési és tördelési javítások. */
+button,
+.record button,
+.monthnav button,
+.nav button {
+  min-height: 44px;
+}
+.row > *,
+.person > *,
+.top > * {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.person {
+  gap: 10px;
+}
+.person > span:first-child {
+  flex: 1;
+}
+.person .values {
+  flex: 0 1 55%;
+  font-variant-numeric: tabular-nums;
+}
+.hero strong {
+  font-size: clamp(24px, 7vw, 30px);
+  overflow-wrap: anywhere;
+}
+.actions > button {
+  min-width: 115px;
+}
+.grid2 > * {
+  min-width: 0;
+}
+.modal {
+  overscroll-behavior: contain;
+  scroll-padding: 20px;
+}
+.modal input,
+.modal textarea {
+  scroll-margin: 24px;
+}
+[hidden] {
+  display: none !important;
+}
+.runtime {
+  max-width: 760px;
+  margin: auto;
+  padding: 8px 16px 110px;
+  overflow-wrap: anywhere;
+}
+.runtime button {
+  display: block;
+  margin-top: 6px;
+}
+body.printing #app,
+body.printing #runtimeStatus {
+  display: none;
+}
+body.printing {
+  background: #fff;
+  color: #111;
+}
+body.printing .reportprint {
+  display: block;
+  padding: 16px;
+  color: #111;
+  max-width: 1200px;
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+body.printing #printControls {
+  position: sticky;
+  top: 0;
+  padding: 12px;
+  background: #e5e7eb;
+  z-index: 10;
+}
+body.printing .reportprint table {
+  color: #111;
+  table-layout: fixed;
+}
+body.printing .reportprint th {
+  color: #111;
+  background: #eee;
+}
+body.printing .reportprint td,
+body.printing .reportprint th {
+  border: 1px solid #aaa;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+@media (max-width: 430px) {
+  .row {
+    gap: 8px;
+  }
+  .top h1 {
+    font-size: 22px;
+  }
+  .person .values {
+    font-size: 12px;
+  }
+  .actions button {
+    padding: 12px 9px;
+  }
+  .grid2 {
+    gap: 8px;
+  }
+  .reportprint {
+    font-size: 10px;
+  }
+}
+@media print {
+  #printControls,
+  #runtimeStatus {
+    display: none !important;
+  }
+  body.printing .reportprint {
+    padding: 0;
+    max-width: none;
+  }
+  .reportprint table {
+    table-layout: fixed;
+  }
+  .reportprint th,
+  .reportprint td {
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+  }
+  .reportprint thead {
+    display: table-header-group;
+  }
+  .reportprint h1 {
+    overflow-wrap: anywhere;
+  }
+  .reportprint h2 {
+    break-after: avoid;
+  }
+}
+@media print {
+  :root,
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    color-scheme: light !important;
+  }
+}

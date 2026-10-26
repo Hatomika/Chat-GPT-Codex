@@ -1,0 +1,3 @@
+Eredeti 1.0 nextMonth('2026-01'), TZ=Europe/Budapest: 2026-01 (elvárt: 2026-02)
+Eredeti 1.0 nextMonth('2026-01'), TZ=UTC: 2026-02 (elvárt: 2026-02)
+Eredeti 1.0 nextMonth('2026-01'), TZ=Pacific/Auckland: 2026-01 (elvárt: 2026-02)

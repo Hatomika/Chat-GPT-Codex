@@ -1,0 +1,751 @@
+{
+  "format": "probaterem-backup",
+  "version": 2,
+  "appVersion": "1.1",
+  "created": "2026-10-26T14:19:38.819Z",
+  "tables": {
+    "settings": [
+      {
+        "id": "bandName",
+        "value": "Demózenekar – Próbaterem"
+      },
+      {
+        "id": "startMonth",
+        "value": "2026-01"
+      }
+    ],
+    "members": [
+      {
+        "id": "demo-member-0",
+        "name": "Kovács Anna",
+        "order": 0,
+        "opening": 0
+      },
+      {
+        "id": "demo-member-1",
+        "name": "Nagy Béla",
+        "order": 1,
+        "opening": 0
+      },
+      {
+        "id": "demo-member-2",
+        "name": "Szabó Csilla",
+        "order": 2,
+        "opening": 0
+      },
+      {
+        "id": "demo-member-3",
+        "name": "Tóth Dániel",
+        "order": 3,
+        "opening": 0
+      }
+    ],
+    "membershipPeriods": [
+      {
+        "id": "demo-period-0",
+        "memberId": "demo-member-0",
+        "start": "2026-01",
+        "end": null
+      },
+      {
+        "id": "demo-period-1",
+        "memberId": "demo-member-1",
+        "start": "2026-01",
+        "end": null
+      },
+      {
+        "id": "demo-period-2",
+        "memberId": "demo-member-2",
+        "start": "2026-01",
+        "end": null
+      },
+      {
+        "id": "demo-period-3",
+        "memberId": "demo-member-3",
+        "start": "2026-01",
+        "end": "2026-02"
+      },
+      {
+        "id": "demo-return",
+        "memberId": "demo-member-3",
+        "start": "2026-04",
+        "end": null
+      }
+    ],
+    "rentalFees": [
+      {
+        "id": "demo-fee-1",
+        "start": "2026-01",
+        "amount": 61001
+      },
+      {
+        "id": "demo-fee-2",
+        "start": "2026-04",
+        "amount": 64000
+      }
+    ],
+    "payments": [
+      {
+        "id": "demo-payment-1",
+        "memberId": "demo-member-0",
+        "date": "2026-01-05",
+        "amount": 50000,
+        "note": "Előrefizetés több hónapra",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-2",
+        "memberId": "demo-member-1",
+        "date": "2026-01-10",
+        "amount": 15251,
+        "note": "Januári pontos befizetés",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-3",
+        "memberId": "demo-member-2",
+        "date": "2026-01-12",
+        "amount": 8000,
+        "note": "Részleges befizetés",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-4",
+        "memberId": "demo-member-3",
+        "date": "2026-01-15",
+        "amount": 15251,
+        "note": "Januári befizetés",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-5",
+        "memberId": "demo-member-1",
+        "date": "2026-02-10",
+        "amount": 15251,
+        "note": "Februári befizetés",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-6",
+        "memberId": "demo-member-2",
+        "date": "2026-02-12",
+        "amount": 22502,
+        "note": "Korábbi hátralék és februári díj",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-7",
+        "memberId": "demo-member-3",
+        "date": "2026-03-05",
+        "amount": 15251,
+        "note": "Kilépés után februári tartozás rendezése",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-8",
+        "memberId": "demo-member-0",
+        "date": "2026-03-06",
+        "amount": 30000,
+        "note": "Túlfizetés továbbvezetése",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-9",
+        "memberId": "demo-member-1",
+        "date": "2026-03-10",
+        "amount": 20334,
+        "note": "Március: három aktív tag",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-10",
+        "memberId": "demo-member-2",
+        "date": "2026-03-12",
+        "amount": 20334,
+        "note": "Márciusi befizetés",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-11",
+        "memberId": "demo-member-0",
+        "date": "2026-04-10",
+        "amount": 16000,
+        "note": "Áprilisi befizetés",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-12",
+        "memberId": "demo-member-1",
+        "date": "2026-04-10",
+        "amount": 16000,
+        "note": "Áprilisi befizetés",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-13",
+        "memberId": "demo-member-2",
+        "date": "2026-04-10",
+        "amount": 16000,
+        "note": "Áprilisi befizetés",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-14",
+        "memberId": "demo-member-3",
+        "date": "2026-04-10",
+        "amount": 16000,
+        "note": "Áprilisi befizetés",
+        "voided": false
+      },
+      {
+        "id": "demo-payment-15",
+        "memberId": "demo-member-1",
+        "date": "2026-04-15",
+        "amount": 1000,
+        "note": "Téves tétel – érvénytelenítve",
+        "voided": true
+      }
+    ],
+    "refunds": [
+      {
+        "id": "demo-refund-1",
+        "memberId": "demo-member-0",
+        "date": "2026-01-25",
+        "amount": 10000,
+        "note": "Részleges túlfizetés visszaadása",
+        "voided": false
+      }
+    ],
+    "landlordPayments": [
+      {
+        "id": "demo-owner-1",
+        "month": "2026-01",
+        "paid": true,
+        "date": "2026-01-20",
+        "amount": 61001
+      },
+      {
+        "id": "demo-owner-2",
+        "month": "2026-02",
+        "paid": true,
+        "date": "2026-02-20",
+        "amount": 61001
+      },
+      {
+        "id": "demo-owner-3",
+        "month": "2026-03",
+        "paid": false,
+        "date": null,
+        "amount": 0
+      }
+    ],
+    "auditLog": [
+      {
+        "id": "demo-audit-0",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "settings",
+        "recordId": "bandName",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "bandName",
+          "value": "Demózenekar – Próbaterem"
+        }
+      },
+      {
+        "id": "demo-audit-1",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "settings",
+        "recordId": "startMonth",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "startMonth",
+          "value": "2026-01"
+        }
+      },
+      {
+        "id": "demo-audit-2",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "members",
+        "recordId": "demo-member-0",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-member-0",
+          "name": "Kovács Anna",
+          "order": 0,
+          "opening": 0
+        }
+      },
+      {
+        "id": "demo-audit-3",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "members",
+        "recordId": "demo-member-1",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-member-1",
+          "name": "Nagy Béla",
+          "order": 1,
+          "opening": 0
+        }
+      },
+      {
+        "id": "demo-audit-4",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "members",
+        "recordId": "demo-member-2",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-member-2",
+          "name": "Szabó Csilla",
+          "order": 2,
+          "opening": 0
+        }
+      },
+      {
+        "id": "demo-audit-5",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "members",
+        "recordId": "demo-member-3",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-member-3",
+          "name": "Tóth Dániel",
+          "order": 3,
+          "opening": 0
+        }
+      },
+      {
+        "id": "demo-audit-6",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "membershipPeriods",
+        "recordId": "demo-period-0",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-period-0",
+          "memberId": "demo-member-0",
+          "start": "2026-01",
+          "end": null
+        }
+      },
+      {
+        "id": "demo-audit-7",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "membershipPeriods",
+        "recordId": "demo-period-1",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-period-1",
+          "memberId": "demo-member-1",
+          "start": "2026-01",
+          "end": null
+        }
+      },
+      {
+        "id": "demo-audit-8",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "membershipPeriods",
+        "recordId": "demo-period-2",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-period-2",
+          "memberId": "demo-member-2",
+          "start": "2026-01",
+          "end": null
+        }
+      },
+      {
+        "id": "demo-audit-9",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "membershipPeriods",
+        "recordId": "demo-period-3",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-period-3",
+          "memberId": "demo-member-3",
+          "start": "2026-01",
+          "end": "2026-02"
+        }
+      },
+      {
+        "id": "demo-audit-10",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "membershipPeriods",
+        "recordId": "demo-return",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-return",
+          "memberId": "demo-member-3",
+          "start": "2026-04",
+          "end": null
+        }
+      },
+      {
+        "id": "demo-audit-11",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "rentalFees",
+        "recordId": "demo-fee-1",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-fee-1",
+          "start": "2026-01",
+          "amount": 61001
+        }
+      },
+      {
+        "id": "demo-audit-12",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "rentalFees",
+        "recordId": "demo-fee-2",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-fee-2",
+          "start": "2026-04",
+          "amount": 64000
+        }
+      },
+      {
+        "id": "demo-audit-13",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-1",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-1",
+          "memberId": "demo-member-0",
+          "date": "2026-01-05",
+          "amount": 50000,
+          "note": "Előrefizetés több hónapra",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-14",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-2",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-2",
+          "memberId": "demo-member-1",
+          "date": "2026-01-10",
+          "amount": 15251,
+          "note": "Januári pontos befizetés",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-15",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-3",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-3",
+          "memberId": "demo-member-2",
+          "date": "2026-01-12",
+          "amount": 8000,
+          "note": "Részleges befizetés",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-16",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-4",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-4",
+          "memberId": "demo-member-3",
+          "date": "2026-01-15",
+          "amount": 15251,
+          "note": "Januári befizetés",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-17",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-5",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-5",
+          "memberId": "demo-member-1",
+          "date": "2026-02-10",
+          "amount": 15251,
+          "note": "Februári befizetés",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-18",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-6",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-6",
+          "memberId": "demo-member-2",
+          "date": "2026-02-12",
+          "amount": 22502,
+          "note": "Korábbi hátralék és februári díj",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-19",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-7",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-7",
+          "memberId": "demo-member-3",
+          "date": "2026-03-05",
+          "amount": 15251,
+          "note": "Kilépés után februári tartozás rendezése",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-20",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-8",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-8",
+          "memberId": "demo-member-0",
+          "date": "2026-03-06",
+          "amount": 30000,
+          "note": "Túlfizetés továbbvezetése",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-21",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-9",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-9",
+          "memberId": "demo-member-1",
+          "date": "2026-03-10",
+          "amount": 20334,
+          "note": "Március: három aktív tag",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-22",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-10",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-10",
+          "memberId": "demo-member-2",
+          "date": "2026-03-12",
+          "amount": 20334,
+          "note": "Márciusi befizetés",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-23",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-11",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-11",
+          "memberId": "demo-member-0",
+          "date": "2026-04-10",
+          "amount": 16000,
+          "note": "Áprilisi befizetés",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-24",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-12",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-12",
+          "memberId": "demo-member-1",
+          "date": "2026-04-10",
+          "amount": 16000,
+          "note": "Áprilisi befizetés",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-25",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-13",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-13",
+          "memberId": "demo-member-2",
+          "date": "2026-04-10",
+          "amount": 16000,
+          "note": "Áprilisi befizetés",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-26",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-14",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-14",
+          "memberId": "demo-member-3",
+          "date": "2026-04-10",
+          "amount": 16000,
+          "note": "Áprilisi befizetés",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-27",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-15",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-payment-15",
+          "memberId": "demo-member-1",
+          "date": "2026-04-15",
+          "amount": 1000,
+          "note": "Téves tétel – érvénytelenítve",
+          "voided": true
+        }
+      },
+      {
+        "id": "demo-audit-28",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "refunds",
+        "recordId": "demo-refund-1",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-refund-1",
+          "memberId": "demo-member-0",
+          "date": "2026-01-25",
+          "amount": 10000,
+          "note": "Részleges túlfizetés visszaadása",
+          "voided": false
+        }
+      },
+      {
+        "id": "demo-audit-29",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "landlordPayments",
+        "recordId": "demo-owner-1",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-owner-1",
+          "month": "2026-01",
+          "paid": true,
+          "date": "2026-01-20",
+          "amount": 61001
+        }
+      },
+      {
+        "id": "demo-audit-30",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "landlordPayments",
+        "recordId": "demo-owner-2",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-owner-2",
+          "month": "2026-02",
+          "paid": true,
+          "date": "2026-02-20",
+          "amount": 61001
+        }
+      },
+      {
+        "id": "demo-audit-31",
+        "at": "2026-04-20T12:00:00.000Z",
+        "table": "landlordPayments",
+        "recordId": "demo-owner-3",
+        "kind": "demo-create",
+        "before": null,
+        "after": {
+          "id": "demo-owner-3",
+          "month": "2026-03",
+          "paid": false,
+          "date": null,
+          "amount": 0
+        }
+      },
+      {
+        "id": "demo-void-log",
+        "at": "2026-04-20T12:01:00.000Z",
+        "table": "payments",
+        "recordId": "demo-payment-15",
+        "kind": "void",
+        "before": {
+          "id": "demo-payment-15",
+          "memberId": "demo-member-1",
+          "date": "2026-04-15",
+          "amount": 1000,
+          "note": "Téves tétel – érvénytelenítve",
+          "voided": false
+        },
+        "after": {
+          "id": "demo-payment-15",
+          "memberId": "demo-member-1",
+          "date": "2026-04-15",
+          "amount": 1000,
+          "note": "Téves tétel – érvénytelenítve",
+          "voided": true
+        }
+      }
+    ],
+    "backupMetadata": [
+      {
+        "id": "appSchema",
+        "value": 2
+      }
+    ]
+  }
+}

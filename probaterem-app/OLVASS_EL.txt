@@ -1,0 +1,21 @@
+PRÓBATEREM-NYILVÁNTARTÓ 1.1
+
+A teljes magyar telepítési és használati útmutató: README.md
+Az eredeti 1.0 hibái: AUDIT.md
+A javítások: CHANGELOG.md
+Tényleges teszteredmények és korlátok: TEST_REPORT.md
+Fejlesztői adatmodell: docs/TECHNICAL.md
+
+Gyors indítás a probaterem-app mappából:
+  python -m http.server 8000 --bind 127.0.0.1
+Böngésző: http://localhost:8000/
+
+Androidon HTTPS-es statikus tárhelyről nyisd meg, majd a Chrome
+menüjében telepítsd. Az első sikeres gyorsítótárazás után offline
+működik. A ZIP vagy index.html közvetlen fájlmegnyitása nem elég.
+
+Minden adat helyben van. Frissítés és visszaállítás előtt készíts
+JSON-mentést, és őrizd külön eszközön is. Ne töröld a webhelyadatokat.
+A PDF-export nyomtatási nézet: válaszd a Mentés PDF-ként funkciót.
+A demó kizárólag kézi importtal töltődik be; meglévő adatokat lecserél.
+Fizikai Android-eszközön a rendszertelepítés és nyomtatás nem tesztelt.
